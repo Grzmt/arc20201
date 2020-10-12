@@ -1,3 +1,5 @@
+###
+
 POST http://localhost:5000/gravar
 Content-Type: application/json
 Accept: application/json
@@ -15,3 +17,25 @@ Accept: application/json
         {"altitude": 80}
     ]
 }
+
+###
+
+# Requisição válida
+POST http://localhost:5000/gravar
+Content-Type: application/json
+Accept: application/json
+
+{
+    "medida": "vga",
+    "marcadores": [
+        {"url":"https://www.nvidia.com/pt-br/geforce/graphics-cards/30-series/rtx-3080/"},
+        {"fabricante": "nvidia"},
+        {"arquitetura": "rtx"}
+    ],
+    "valores": [
+        {"serie": 3000 },
+        {"modelo": 3080 }
+    ]
+}
+
+###

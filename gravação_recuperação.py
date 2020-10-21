@@ -36,10 +36,10 @@ def ler(baseurl, org, token, intervalo):
 
 if __name__ == "__main__":
     # Criar variáveis do servidor InfluxDB
-    baseurl = environ.get("https://eu-central-1-1.aws.cloud2.influxdata.com")
-    org = environ.get("GRZMT")
-    bucket = environ.get("grzmt")
-    token = environ.get("Qx7F_oFKc3-jaYXmMvtoaajPXTuq406SB2ewQbCvOfURUWMwKHisCIyMf004xjLCLl1MKc95PL7q1rK1WpLPeA==")
+    baseurl = "https://eu-central-1-1.aws.cloud2.influxdata.com"
+    org = "GRZMT"
+    bucket = "grzmt"
+    token = "Qx7F_oFKc3-jaYXmMvtoaajPXTuq406SB2ewQbCvOfURUWMwKHisCIyMf004xjLCLl1MKc95PL7q1rK1WpLPeA=="
     dados = "ideia,local=sonho,personagem=Lola,ação=voando latitude=-27.6084177,longitude=-48.6354691,altitude=80"
     intervalo = "1m"
 

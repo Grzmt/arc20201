@@ -40,7 +40,7 @@ if __name__ == "__main__":
     org = environ.get("GRZMT")
     bucket = environ.get("grzmt")
     token = environ.get("Qx7F_oFKc3-jaYXmMvtoaajPXTuq406SB2ewQbCvOfURUWMwKHisCIyMf004xjLCLl1MKc95PL7q1rK1WpLPeA==")
-    dados = "vga,fabricante="nvidia",arquitetura="rtx",serie=3000 modelo=3080"
+    dados = "ideia,local=sonho,personagem=Lola,ação=voando latitude=-27.6084177,longitude=-48.6354691,altitude=80"
     intervalo = "1m"
 
     # Escrita no banco

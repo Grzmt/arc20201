@@ -40,7 +40,7 @@ if __name__ == "__main__":
     org = "GRZMT"
     bucket = "grzmt"
     token = "Qx7F_oFKc3-jaYXmMvtoaajPXTuq406SB2ewQbCvOfURUWMwKHisCIyMf004xjLCLl1MKc95PL7q1rK1WpLPeA=="
-    dados = "ideia,local=sonho,personagem=Lola,ação=voando latitude=-27.6084177,longitude=-48.6354691,altitude=80"
+    dados = "ideia,local=sonho,personagem=Lola,acao=voando latitude=-27.6084177,longitude=-48.6354691,altitude=80"
     intervalo = "1m"
 
     # Escrita no banco
